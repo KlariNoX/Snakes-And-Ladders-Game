@@ -313,13 +313,8 @@ function toggleMusic() {
     }
 }
 
-// I don't think I'm going to use this, but the assignment asks for it. So here it is.
-function getCurrentPlayer(){
-    return Game.currentPlayer;
-}
-
-// DISCLAIMER: COPIED FROM THE WEB. NOT MY OWN CODE!
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 
