@@ -1,0 +1,61 @@
+.ex1
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .ex2
+    {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+    }
+
+table,td {padding: 0px; margin: 0px; cellspacing: 0; cellpadding:0; 
+ border-collapse:collapse; border-spacing: 0px;  border:none; 
+}
+img { display:block;   }
+
+/* DISCLAIMER: THE FOLLOWING CODE IS HEAVILY AI-ASSISTED! */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#mainTable {
+    margin: 0 auto;             /* center the board */
+    border: 2px solid #444;     /* subtle border */
+}
+
+button {
+    padding: 8px 14px;
+    margin: 8px;
+    border: 1px solid #444;
+    background-color: #e7e7e7;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #dcdcdc;
+}
+
+#infoBox {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#infoBox th, #infoBox td {
+    border: 1px solid #444;
+    padding: 6px 12px;
+}
+
+#infoBox th {
+    background-color: #ddd;
+}

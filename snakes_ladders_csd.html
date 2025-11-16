@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="myStyle.css" />
+    <script src="game.js"></script>
+    <title>Snakes and Ladders Game</title>
+  </head>
+  <body onload="initBoard()">
+    <h1>Snakes and Ladders Game (CSD Edition)</h1>
+    <audio id="bg-music" src="Assets\sound\backgroundMusic.mp3" loop></audio>
+    <table id="mainTable"></table>
+    <br />
+    <button onclick="newGame()">Start (new) Game</button>
+    <button onclick="play()">Roll Dice</button>
+    <button onclick="toggleMusic()">Mute / Unmute</button>
+    <div>
+      <table id="infoBox">
+        <tr>
+          <th>Current Turn</th>
+          <th>Last Dice Roll</th>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
