@@ -66,15 +66,14 @@ function Player(name, color){
 }
 
 const Game = {
-    player1: new Player("John","Red"),
-	player2: new Player("Sophie","White"),
+    player1: new Player("Player1","Red"),
+	player2: new Player("Player2","White"),
     currentPlayer: null,
     turn : 0,
     lastDiceRoll: 0,
     Board: [],
     isOver: false
 }
-
 
 function initBoard(){
 	var table = document.getElementById('mainTable');
@@ -316,5 +315,6 @@ function toggleMusic() {
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 
 
